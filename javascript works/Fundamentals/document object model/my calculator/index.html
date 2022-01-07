@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+<div class="mainBox">
+    <form action="">
+  <input type="text" name="text"  placeholder="Result" class="b1" id="result">
+   <input type="button" class="b2" value="c" id="clear" onclick="clearBox()"><br>
+   <input type="button" class="num" value="1 " onclick="displaynum('1')"  >
+   <input type="button" class="num" value="2" onclick="displaynum('2')">
+   <input type="button" class="num" value="3"onclick="displaynum('3')">
+   <input type="button" class="num" value="+"onclick="displaynum('+')"><br>
+
+   <input type="button" class="num" value="4 " onclick="displaynum('4')" >
+   <input type="button" class="num" value="5" onclick="displaynum('5')">
+   <input type="button" class="num" value="6" onclick="displaynum('6')">
+   <input type="button" class="num" value="-" onclick="displaynum('-')"><br>
+
+   <input type="button" class="num" value="7 " onclick="displaynum('7')" >
+   <input type="button" class="num" value="8" onclick="displaynum('8')">
+   <input type="button" class="num" value="9" onclick="displaynum('9')">
+   <input type="button" class="num" value="*" onclick="displaynum('*')"><br>
+
+   <input type="button" class="num" value="/" onclick="displaynum('/')" >
+   <input type="button" class="num" value="0" onclick="displaynum('0')">
+   <input type="button" class="num" value="Del" onclick="delExpression('Del')">
+   <input type="button" class="num" value="=" onclick="evaluateExpression('=')"><br>
+
+
+
+</div> 
+     </form>
+
+</div>
+
+
+
+
+
+    
+</body>
+</html>

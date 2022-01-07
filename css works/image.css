@@ -1,0 +1,18 @@
+div{
+    height: 550px;
+    width:20%;
+    background-color: rgb(134, 134, 240);
+    border: blue solid 2px;
+    float:left;
+}
+img{
+    height: 200px;
+    width:50%;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+h1{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+}
